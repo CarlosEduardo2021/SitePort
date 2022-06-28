@@ -20,20 +20,19 @@ p
     width: 100%;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
-    background:linear-gradient(45deg,#2f3542, #a4b0be,#ffa502);
+    background: url(images/bg.jpg);
     background-size: cover;
-    animation: colors 15s ease infinite;
+    background-position: right;
+
 }
-@keyframes colors {
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
+
+.banner
+{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+
 }
