@@ -22,8 +22,18 @@ p
     display: flex;
     justify-content: center;
     align-items:center;
-
-    background: url(images/bg.jpg);
-
+    background:linear-gradient(45deg,#2f3542, #a4b0be,#ffa502);
     background-size: cover;
+    animation: colors 15s ease infinite;
+}
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
