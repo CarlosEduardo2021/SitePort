@@ -8,31 +8,58 @@
     font-family: 'Poppins', sans-serif;
 }
 
-p
+section
 {
-    font-weight: 300;
-    color: #111;
+    padding: 100px;
 }
 
 .banner
 {
     position: relative;
-    width: 100%;
     min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
     background: url(images/bg.jpg);
     background-size: cover;
     background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 
 }
 
-.banner
+.banner h2
 {
     font-size: 3em;
     color: #fff;
     font-weight: 500;
     line-height: 1.5em;
 
+} 
+
+.banner h2 span
+{
+    font-size: 1.5em;
+    font-weight: 700;
 }
+
+.banner h3
+{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn
+{
+    position: relative;
+    background-color: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+/* 6:11*/
