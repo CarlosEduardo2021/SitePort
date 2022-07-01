@@ -15,6 +15,8 @@ body
     align-items: center;
     min-height: 100vh;
     background: #5825c6;
+
+    
 }
 .container
 {
@@ -24,24 +26,29 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
 }
+
 h2
 {
     color: #fff;
     text-align: center;
+    top: 10%;
     font-size: 12vw;
     line-height: 0.7em;
     z-index: 1000;
     font-weight: 900;
 }
+
 h2 span
 {
     font-size: 0.2em;
     letter-spacing: 0.4em;
     font-weight: 400;
     text-transform: uppercase;
-}
-.block
+} 
+/*.block
 {
     position: absolute;
     width: 50px;
@@ -49,4 +56,5 @@ h2 span
     background: #2809c3;
     box-shadow: 10px 10px 50px rgba(0,0,0,00.2);
 
-} 
+} */
+
